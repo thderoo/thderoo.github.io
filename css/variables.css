@@ -1,0 +1,83 @@
+:root {
+  /* Colors — Anthropic palette */
+  --color-bg: #F5F5EF;
+  --color-bg-alt: #EBEBDE;
+  --color-surface: #FFFFFF;
+  --color-text: #191918;
+  --color-text-secondary: #5B5B58;
+  --color-text-muted: #8B8B87;
+  --color-border: #DDD9D0;
+  --color-border-light: #E8E5DD;
+
+  /* Brand accent — warm terracotta (Anthropic) */
+  --color-monarch: #C96442;
+  --color-monarch-light: #D9845F;
+  --color-monarch-dark: #A8492E;
+  --color-monarch-bg: #FAF3EE;
+  --color-monarch-bg-subtle: rgba(201, 100, 66, 0.06);
+
+  /* Supplementary accents */
+  --color-teal: #3D7A6E;
+  --color-teal-light: #5A9B8E;
+  --color-dark: #191918;
+  --color-dark-soft: #2A2A28;
+
+  /* Chart generation colors — earthy gradient */
+  --color-gen-0: #9B9B95;
+  --color-gen-1: #C9956A;
+  --color-gen-2: #C98058;
+  --color-gen-3: #C96442;
+  --color-gen-4: #B45438;
+  --color-gen-5: #A8492E;
+
+  /* Typography */
+  --font-serif: 'Source Serif 4', 'Georgia', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Font sizes — fluid scale */
+  --text-xs: clamp(0.65rem, 0.6rem + 0.2vw, 0.72rem);
+  --text-sm: clamp(0.72rem, 0.68rem + 0.2vw, 0.82rem);
+  --text-base: clamp(0.85rem, 0.82rem + 0.2vw, 0.98rem);
+  --text-lg: clamp(1rem, 0.92rem + 0.4vw, 1.15rem);
+  --text-xl: clamp(1.15rem, 1rem + 0.75vw, 1.5rem);
+  --text-2xl: clamp(1.4rem, 1.15rem + 1.2vw, 1.9rem);
+  --text-3xl: clamp(1.75rem, 1.3rem + 2vw, 2.6rem);
+  --text-hero: clamp(2.2rem, 1.6rem + 3vw, 3.6rem);
+
+  /* Line heights */
+  --leading-tight: 1.2;
+  --leading-normal: 1.65;
+  --leading-relaxed: 1.8;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+
+  /* Layout */
+  --container-max: 720px;
+  --container-wide: 960px;
+  --container-full: 1200px;
+  --section-padding: clamp(3rem, 5vw, 6rem);
+
+  /* Borders & Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
